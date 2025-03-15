@@ -10,7 +10,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', (req, res) => {
-    res.render('index', { title: 'Mi Página en Azure', message: '¡Bienvenido a mi sitio web en Azure!' });
+    res.render('index', { title: 'TechCore', message: 'TechCore' });
 });
 
 app.listen(PORT, () => {
